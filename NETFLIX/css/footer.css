@@ -1,56 +1,23 @@
 /* ---- ----- ----- Pie de pagina ----- ----- ----- */
 
-.footer-ico{
-  display: flex;
-  gap: 20px;
-} 
-
-.footer-ico li{
-  width: 60px;
-  height: 50px;
-  background-color: var(--blanco);
-}
 .footer {
   margin: 3em 0 0;
   padding: 8vh 0;
-  display: flex;
+  display: block;
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  color: var(--gris-f);
+  border-top: 40.4em solid ;
 }
-.footer__center {
-  width: 80%;
-  max-width: 80em;
+.footer .social .icon .social-link {
+color: var(--blanco); 
+ padding: 45px;
 }
-.footer__fila {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-content: flex-start;
-}
-.footer__p {
-  margin: 0 0 1.5em;
-  font-size: 1em;
-}
-.footer__ul {
-  margin: 0 0 2em;
-  font-size: 0.8em;
-}
-@media screen and (max-width: 700px) {
-  .footer__ul {
-    width: calc( 100% / 2 );
-  }
-}
-.footer__li {
-  margin: 0 0 1.4em;
-}
-.footer__select {
-  max-width: 150px;
-  margin: 0 0 1em;
-}
-.footer .brand {
-  margin: 2.8em 0 0;
-  font-size: 0.8em;
+.info .texto ul{
+  display: inline-block;
+  flex-wrap: wrap;
+  margin: 0 0 14px; 
+  background-color: aqua;
+
 }
 

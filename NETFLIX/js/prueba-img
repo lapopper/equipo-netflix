@@ -1,0 +1,24 @@
+function mostrarImagenes(recolocar) {
+/** recolocar indica que se recoloque el documento **/
+/** si no recolocamos, solo ocultamos las imágenes **/
+
+  for (x=0;x<document.images.length;x++){
+    if (recolocar)
+      document.images[x].className = "imagen";
+    else
+      document.images[x].style.visibility = "visible";
+  }
+}
+
+function ocultarImagenes(recolocar) {
+
+/** recolocar indica que se recoloque el documento **/
+/** si no recolocamos, solo ocultamos las imágenes **/
+
+  for (x=0;x<document.images.length;x++){
+    if (recolocar)
+      document.images[x].className = "imagenNO";
+    else
+      document.images[x].style.visibility = "hidden";
+  }
+}
