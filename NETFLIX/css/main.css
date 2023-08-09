@@ -1,3 +1,26 @@
+:root {
+	--rojo: #e50914;
+	--blanco: white;
+	--gris: #303030;
+	--gris-f: #757575;
+	--negro: black;
+	/* Tipografía */
+	--tipo-principal:"Netflix Sans Regular";
+  }
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: var(--negro);
+	font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-size: 16px;
+}
+
+
 /* ---- ----- ----- Contenedor Titulo y Controles ----- ----- ----- */
 .contenedor-titulo-controles {
 	display: flex;

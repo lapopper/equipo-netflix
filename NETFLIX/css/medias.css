@@ -1,6 +1,6 @@
 /* ---- ----- ----- Media Queries ----- ----- ----- */
 @media screen and (max-width: 800px) {
-	header .logotipo {
+	.logo {
 		margin-bottom: 10px;
 		font-size: 30px;
 	}
@@ -37,9 +37,18 @@
 
 
 
-
-@media screen and (max-width: 700px) {
-	.footer__ul {
-	  width: calc( 100% / 2 );
+@media (min-width:400px) {
+	.info{
+		grid-template-columns: 1fr 1fr;
+	}
+  }
+  @media (min-width:768px) {
+	.info{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+  }
+  @media (min-width:992px) {
+	.info{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
   }
