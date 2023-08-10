@@ -1,0 +1,60 @@
+/* ---- ----- ----- Pie de pagina ----- ----- ----- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+.footer {
+  margin: 2em 0 0;
+  padding: 8vh 0;
+  padding: 50px;
+  display: block;
+  border-top: 35.4em solid ;
+  width: 90%;
+  justify-content: center;
+  
+}
+.contenido-footer{
+  width: 90%;
+  padding: 0 80px;
+}
+.footer-contenedor{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  letter-spacing: 20px;
+  margin-top: 50px;
+  margin-inline:auto;
+}
+.footer-contenedor a{
+  color: white;
+}
+.social{
+  display: flex;
+  gap: 20px;
+}
+.social li{
+  width: 30px;
+  height: 30px;
+}
+.info {
+  display: grid;
+    color: rgb(133, 133, 133);
+    gap: 20px;
+    margin-block:20px;
+    font-size: 15px;
+}
+.info p:hover{
+  color: var(--blanco);
+}
+div .servicio{
+  width: 15%;
+  color: grey;
+  background-color: transparent;
+  padding: 10px;
+  font-weight: 90;
+  border: 1px solid grey;
+}
+div .servicio:hover{
+  color: white;
+}
+
+
+

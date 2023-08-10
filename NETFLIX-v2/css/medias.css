@@ -1,0 +1,92 @@
+/* ---- ----- ----- Media Queries ----- ----- ----- */
+@media screen and (max-width: 800px) {
+	.logo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .contenedor {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.pelicula-principal {
+		font-size: 14px;
+	}
+
+	.pelicula-principal .descripcion {
+		max-width: 100%;
+	}
+
+	.peliculas-recomendadas .contenedor-carousel {
+		overflow: visible;
+	}
+
+	.peliculas-recomendadas .contenedor-carousel .carousel {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+
+	.peliculas-recomendadas .indicadores,
+	.peliculas-recomendadas .flecha-izquierda,
+	.peliculas-recomendadas .flecha-derecha {
+		display: none;
+	}
+}
+
+/* -------------aside------------ */
+@media (min-width:400px) {
+    .navegacion{
+        gap: 15px;
+    }
+}
+@media (min-width:768px) {
+    .logo{
+        width: 110px;
+        height: 60px;
+    }
+}
+@media (min-width:992px) {
+    .navegacion--izquierda li:nth-child(2){
+        display: none;
+    }
+}
+@media (min-width:992px) {
+    .navegacion--izquierda li:nth-child(3),
+    .navegacion--izquierda li:nth-child(4),
+    .navegacion--izquierda li:nth-child(5),
+    .navegacion--izquierda li:nth-child(6),
+    .navegacion--izquierda li:nth-child(7){
+        display: flex;
+    }
+}
+@media (min-width:330px) {
+    .navegacion--derecha li:nth-child(1),
+    .navegacion--derecha li:nth-child(4){
+        display: flex;
+    }
+}
+@media (min-width:992px) {
+    .navegacion--derecha li:nth-child(2),
+    .navegacion--derecha li:nth-child(3){
+        display: flex;
+    }
+}
+/* --------footer---------- */
+
+@media (min-width:400px) {
+	.info{
+		grid-template-columns: 1fr 1fr;
+	}
+  }
+  @media (min-width:768px) {
+	.info{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+  }
+  @media (min-width:992px) {
+	.info{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+  }
