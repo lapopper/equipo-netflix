@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 .footer {
-  margin: 2em 0 0;
+  /*margin: 2em 0 0;
   padding: 8vh 0;
   padding: 50px;
   display: block;
@@ -12,8 +12,9 @@
   
 }
 .contenido-footer{
-  width: 90%;
-  padding: 0 80px;
+  width: 100%;
+  padding: 50px 10%;
+  justify-content: center;
 }
 .footer-contenedor{
   flex-wrap: wrap;
@@ -54,5 +55,4 @@ div .servicio{
 }
 div .servicio:hover{
   color: white;
-}
-
+} 
