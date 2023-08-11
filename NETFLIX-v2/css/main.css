@@ -125,3 +125,260 @@ body {
 	color: red;
 	padding: 0.5em;
 }
+
+.filas{
+    position: relative;
+    width: 100%;
+    bottom: -590px;
+    left: 0;
+    padding-left: 4%;
+    margin-bottom: 3vw;
+    user-select: none;
+    overflow: hidden;
+    transform: translateZ(0);
+}
+.tituloFilas{
+    position: relative;
+    padding: 6px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+}
+#siguiente{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    height: 15.873vw;
+    width: 7.14286%;
+    border-radius: 5px;
+    background-color: inherit;
+    cursor: pointer;
+    user-select: none;
+    opacity: 100;
+    border: none;
+}
+#atras{
+    
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    height: 15.873vw;
+    width: 7.14286%;
+    border-radius: 5px;
+   background-color: inherit;
+    cursor: pointer;
+    user-select: none;
+    opacity: 100;
+    border: none;
+     
+    
+    
+   
+}
+#atras i{
+    color: white;
+    font-size: 50px;
+    
+}
+#siguiente i{
+    color: white;
+    font-size: 50px;
+}
+
+
+.resumen{
+    position: relative;
+    left: 1%;
+    margin-top: 2%;
+    width: auto;
+    border-radius: 4px;
+    
+    background-color: black;
+    transition: width 1s, height 1s;
+    
+}
+#video{
+    width: 350px;
+    display: none;
+    border-radius: 4px;
+
+}
+
+
+.otrainfo{
+    display: grid;
+    color: white;
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+.botones{
+    width: 100%;
+   
+display: flex;
+position: relative
+}
+
+.botones i{
+    width: auto;
+    border-radius: 50%;
+    padding: 5px;
+    color: #808080;
+    border: 1px solid #808080;
+    
+}
+#play  {
+    background-color: white;
+    color: black;
+    border: none;
+}
+.solo{
+    display: flex;
+    position: absolute;
+    right: 4%;
+}
+.calificaciones{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+ 
+}
+.calificaciones p{
+   
+    margin-left: 1%;
+    width: 100%;
+}
+.categorias ul{
+display: flex;
+justify-content: center;
+
+}
+
+.categorias ul li{
+    width: 33.3%;
+}
+.carrusel{
+    display: flex;
+   
+    flex-direction: wrap;
+    flex-wrap: nowrap;
+}
+.carrsulFilas{
+    width: 100%;
+    overflow: hidden;
+}
+.horizontal{
+    overflow: hidden;
+}
+.carrusel{
+    display: flex;
+}
+.fondos{
+    width: 100%;
+    border-radius: 4px;
+}
+.fondos img{
+    border-radius: 4px;
+    width: 274px;
+    
+}
+.infoResumida{
+    background-color: black;
+    color: white;
+    position: relative;
+    margin-left: 0.5%;
+    border-radius: 4px;
+    width: 20%;
+    transition: width 1s, height 1s;
+    font-size: 16px;
+}
+#video{
+    width: 350px;
+    display: none;
+    
+}
+/* APARECER LA INFORMACION */
+.infoResumida:hover{
+    width: 350px;
+    height: 350px;
+    z-index: 1;
+    .informacion{
+        display: grid;
+    }
+    #video{
+        display: grid;
+    }
+    #fotofondo{
+        display: none;
+    }
+}
+.informacion{
+    display: none;
+}
+.primeros i{
+    border: 1px solid #808080;
+    border-radius: 50%;
+    padding: 5px;
+}
+.ultimo{
+    position: absolute;
+    right: 4%;
+}
+.ultimo i{
+    border: 1px solid #808080;
+    border-radius: 50%;
+    padding: 5px;
+    
+}
+.botones{
+    margin-top: 2%;
+    display: flex;
+    padding-left: 2%;
+}
+
+.calificaciones{
+    margin-top: 2%;
+    display: flex;
+    
+}
+.calificaciones div{
+    margin-left: 7%;
+}
+.categorias{
+    margin-top: 2%;
+}
+.categorias ul{
+    display: flex;
+    
+}
+.categorias ul li{
+    margin-left: 7%;
+    
+}
+
+    .redes{
+        background-color: #141414;
+        color: white;
+        margin-left: 10%;
+        margin-right: 15%;
+    }
+    .redes svg{
+       width: 24px;
+    }
+    .columnasfooter p{
+        margin-top:3%;
+    }
+   
+    .f1{
+        margin-left: 6%;
+    }

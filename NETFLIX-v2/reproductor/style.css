@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+.parteSuperior{
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 3%;
+    color: white;
+    
+}
+.bandera{
+    position: absolute;
+    right: 3%;
+    width: 50%;
+    text-align: end;
+    color: white;
+}
+.flechaAtras{
+    
+    position: absolute;
+    left: 3%;
+    width: 50%;
+    
+    
+}
+.inferior{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    color: white;
+  
+}
+
+
+.controles{
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 1;
+}
+.infoEpisodio{
+    width: 65%;
+    display: grid;
+    justify-content: center;
+    
+}
+.controlesTiempo{
+    padding-left: 5%;
+}
+.controlesVista{
+    padding-right: 3%;
+}
+.video{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+  
+}
+
+video{
+    width: 80%;
+    height: 100%;
+}
+
+.reproductor:hover{
+    cursor: pointer;
+    .controles{
+        display: flex;
+    }
+
+    .parteSuperior{
+        display: flex;
+    }
+}
