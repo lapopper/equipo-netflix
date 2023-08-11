@@ -2,19 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
 
 .footer {
-  margin: 2em 0 0;
+  /*margin: 2em 0 0;
   padding: 8vh 0;
+  padding: 50px;
   display: block;
+  border-top: 35.4em solid ;*/
+  width: 100%;
   justify-content: center;
-  align-items: center;
-  border-top: 35.4em solid ;
-
   
+}
+.contenido-footer{
+  width: 100%;
+  padding: 50px 10%;
+  justify-content: center;
 }
 .footer-contenedor{
   flex-wrap: wrap;
-  width: 95%;
+  justify-content: space-between;
+  width: 100%;
+  letter-spacing: 20px;
+  margin-top: 50px;
   margin-inline:auto;
+}
+.footer-contenedor a{
+  color: white;
 }
 .social{
   display: flex;
@@ -34,10 +45,16 @@
 .info p:hover{
   color: var(--blanco);
 }
-.servivio{
-  color: white;
+div .servicio{
+  width: 15%;
+  color: grey;
+  background-color: transparent;
   padding: 10px;
   font-weight: 90;
+  border: 1px solid grey;
+}
+div .servicio:hover{
+  color: white;
 }
 
 
